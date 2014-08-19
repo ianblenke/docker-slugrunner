@@ -1,5 +1,5 @@
-FROM progrium/cedarish
-MAINTAINER Jonathan Rudenberg <jonathan@titanous.com>
+FROM progrium/cedarish:latest
+MAINTAINER Ian Blenke <ian@blenke.com>
 
 ADD ./runner /runner
 ENTRYPOINT ["/runner/init"]
